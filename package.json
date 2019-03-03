@@ -1,17 +1,25 @@
 {
-  "name": "medium-05",
+  "name": "medium-06_redis",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project to demonstrate usage of redis to handle session in node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "redis",
+    "node",
+    "session",
+    "node.js"
+  ],
+  "author": "Pankaj Panigrahi",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongodb": "^3.1.10"
+    "mongodb": "^3.1.10",
+    "node-uuid": "^1.4.8",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
